@@ -1,4 +1,4 @@
-
+#[allow(dead_code)]
 fn main() {
   let pair = (4, 2);
 
@@ -21,9 +21,9 @@ fn main() {
   fn main() {
     println!("Tell me what tyep of person you are", );
 
-    match age() {
-      0 => println!("I'm not born yet I guess", ),
-      n @ 1 ..= 12  =>
-    }
+    // match age() {
+    //   0 => println!("I'm not born yet I guess", ),
+    //   n @ 1 ..= 12  =>
+    // }
   }
 }
