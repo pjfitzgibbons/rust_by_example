@@ -1,4 +1,3 @@
-
 #[derive(Debug)]
 struct Person<'a> {
   name: &'a str,
@@ -55,5 +54,4 @@ fn main() {
 
   println!("{:?}", point);
   println!("my_x: {:?}, my_y: {:?}", my_x, my_y)
-
 }
